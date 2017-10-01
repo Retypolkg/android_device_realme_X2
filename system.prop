@@ -23,6 +23,9 @@ persist.bluetooth.a2dp.lhdc=true
 # Camera
 vendor.camera.aux.packagelist=com.android.camera
 
+# Charger
+ro.charger.enable_suspend=true
+
 # CNE
 persist.vendor.cne.feature=1
 
