@@ -16,5 +16,9 @@ PRODUCT_PACKAGES += \
 TARGET_SCREEN_HEIGHT := 2240
 TARGET_SCREEN_WIDTH := 1080
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
 # Inherit from vendor if exists
 $(call inherit-product-if-exists, vendor/realme/X2/X2-vendor.mk)
