@@ -70,7 +70,6 @@ persist.vendor.radio.enable_temp_dds=true
 persist.vendor.radio.force_on_dc=true
 ril.subscription.types=RUIM
 use.voice.path.for.pcm.voip=true
-ro.telephony.default_network=22,22
 ro.vendor.use_data_netmgrd=true
 persist.data.wda.enable=true
 persist.data.df.dl_mode=5
