@@ -19,4 +19,7 @@
 <resources>
     <!-- Disable bluetooth by default -->
     <bool name="def_bluetooth_on">false</bool>
+
+    <!-- Default for Settings.Global.DEVICE_NAME $1=MODEL-->
+    <string name="def_device_name_simple">Realme X2</string>
 </resources>
