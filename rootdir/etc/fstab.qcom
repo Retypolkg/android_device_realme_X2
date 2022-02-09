@@ -33,6 +33,9 @@
 # Currently we dont have e2fsck compiled. So fs check would failed.
 
 #<src>                                                 <mnt_point>               <type>  <mnt_flags and options>                            <fs_mgr_flags>
+/dev/block/bootdevice/by-name/boot                      /boot                    emmc    defaults                                             defaults
+/dev/block/bootdevice/by-name/recovery                  /recovery                emmc    defaults                                             defaults
+
 /dev/block/by-name/system                               /system                  ext4    ro,barrier=1                                     wait,avb,first_stage_mount
 /dev/block/by-name/vendor                               /vendor                  ext4    ro,barrier=1                                     wait,avb,first_stage_mount
 /dev/block/by-name/odm                                  /odm                     ext4    ro,barrier=1                                     wait,avb,first_stage_mount
