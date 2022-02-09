@@ -104,6 +104,12 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/gps/vendor/,$(TARGET_COPY_OUT_VENDOR)/etc) \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/gps/odm/,$(TARGET_COPY_OUT_ODM)/etc)
 
+# Health
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.1-impl \
+    android.hardware.health@2.1-impl.recovery \
+    android.hardware.health@2.1-service
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
