@@ -237,6 +237,7 @@ vendor.rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 # USB
 vendor.usb.diag.func.name=diag
 vendor.usb.use_ffs_mtp=0
+vendor.usb.product_string=Realme X2
 
 # Wi-Fi
 wifi.aware.interface=wifi-aware0
