@@ -25,10 +25,16 @@
 
 #define BTM_DEF_LOCAL_NAME   "Realme X2"
 
-#pragma push_macro("PROPERTY_VALUE_MAX")
-
-#include <cutils/properties.h>
+#include <stdint.h>
 #include <string.h>
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+int property_get(const char *key, char *value, const char *default_value);
+#ifdef __cplusplus
+}
+#endif
 
 #include "osi/include/osi.h"
 
@@ -40,7 +46,5 @@
 // Skips conn update at conn completion
 #define BT_CLEAN_TURN_ON_DISABLED 1
 #define AVDT_NUM_SEPS 35
-
-#pragma pop_macro("PROPERTY_VALUE_MAX")
 
 #endif
