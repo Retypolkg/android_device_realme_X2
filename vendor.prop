@@ -161,7 +161,6 @@ debug.sf.early_gl_phase_offset_ns=3000000
 debug.sf.early_gl_app_phase_offset_ns=15000000
 debug.sf.hw=0
 persist.sys.sf.color_saturation=1.0
-ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.sm6150.api30
 vendor.display.comp_mask=0
 vendor.display.dataspace_saturation_matrix=1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
 vendor.display.disable_decimation=1
