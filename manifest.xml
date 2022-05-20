@@ -325,6 +325,11 @@
         <transport>hwbinder</transport>
         <fqname>@3.0::IRTPService/imsrtpservice</fqname>
     </hal>
+    <hal format="hidl">
+        <name>vendor.qti.qspmhal</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IQspmhal/default</fqname>
+    </hal>
     <!-- Data Link Latency -->
     <hal format="hidl">
         <name>vendor.qti.hardware.data.connection</name>
