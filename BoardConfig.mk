@@ -24,5 +24,10 @@ TARGET_2ND_CPU_VARIANT := cortex-a9
 TARGET_BOOTLOADER_BOARD_NAME := sm6150
 TARGET_NO_BOOTLOADER := true
 
+# Platform
+BOARD_USES_QCOM_HARDWARE := true
+TARGET_BOARD_PLATFORM := sm6150
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno618
+
 # Inherit from the proprietary version
 include vendor/realme/X2/BoardConfigVendor.mk
