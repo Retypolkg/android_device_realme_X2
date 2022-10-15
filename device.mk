@@ -12,6 +12,24 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PACKAGES += \
     fs_config_files
 
+# Audio
+PRODUCT_PACKAGES += \
+    android.hardware.audio.service \
+    android.hardware.audio@6.0-impl \
+    android.hardware.audio.effect@6.0-impl \
+    android.hardware.soundtrigger@2.1-impl \
+    audio.a2dp.default \
+    audio.r_submix.default \
+    audio.usb.default \
+    libqcompostprocbundle \
+    libqcomvisualizer \
+    libqcomvoiceprocessing \
+    libaudio-resampler \
+    libtinycompress \
+    libtinycompress.vendor \
+    libvolumelistener \
+    tinymix
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2240
 TARGET_SCREEN_WIDTH := 1080
