@@ -127,6 +127,10 @@ PRODUCT_PACKAGES += \
     libhwbinder \
     libhwbinder.vendor
 
+# Input
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/gpio-keys.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/gpio-keys.kl
+
 # IPACM
 PRODUCT_PACKAGES += \
     ipacm \
