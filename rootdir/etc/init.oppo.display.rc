@@ -1,0 +1,65 @@
+################################################################
+## Copyright (C), 2020-2022, OPPO Mobile Comm Corp., Ltd.
+## OPLUS_ARCH_EXTENDS
+## File: - init.oppo.display.rc
+## Description:
+##
+## Version: 1.0
+## Date : 2020/10/19
+## Author: sachin.shukla@MULTIMEDIA.DISPLAY
+##
+## ------------------- Revision History: -----------------------
+## <author>            <data>        <version >       <desc>
+## sachin.shukla   2020/10/19         1.0        create file
+################################################################
+#ifdef OPLUS_ARCH_EXTENDS
+#sachin.shukla@MULTIMEDIA.DISPLAY.LCD.PARAMS,2020-10-19 add for display
+on boot
+    chown system system /sys/kernel/oppo_display/dump_info
+    chown system system /sys/kernel/oppo_display/hbm
+    chown system system /sys/kernel/oppo_display/cabc
+    chown system system /sys/kernel/oppo_display/audio_ready
+    chown system system /sys/kernel/oppo_display/seed
+    chown system system /sys/kernel/oppo_display/panel_pwr
+    chown system system /sys/kernel/oppo_display/dimlayer_bl_en
+    chown system system /sys/kernel/oppo_display/ffl_set
+    chown system system /sys/kernel/oppo_display/dimlayer_hbm
+    chown system system /sys/kernel/oppo_display/force_screenfp
+    chown system system /sys/kernel/oppo_display/notify_fppress
+    chown system system /sys/kernel/oppo_display/aod_light_mode_set
+    chown system system /sys/kernel/oppo_display/power_status
+    chown system system /sys/kernel/oppo_display/sau_closebl_node
+    chown system system /sys/kernel/oppo_display/esd_status
+    chown system system /sys/kernel/oppo_display/spr
+    chown system system /sys/kernel/oppo_display/write_panel_reg
+    chown system system /sys/kernel/oppo_display/serial_number
+    chown system system /sys/kernel/oppo_display/panel_serial_number
+    chown system system sys/kernel/oppo_display/mipi_clk_rate_hz
+    chown system system /sys/kernel/oppo_display/osc_clock
+    chown system system /sys/kernel/oppo_display/max_brightness
+
+    chmod 0666 /sys/kernel/oppo_display/dump_info
+    chmod 0666 /sys/kernel/oppo_display/hbm
+    chmod 0666 /sys/kernel/oppo_display/cabc
+    chmod 0666 /sys/kernel/oppo_display/audio_ready
+    chmod 0666 /sys/kernel/oppo_display/seed
+    chmod 0666 /sys/kernel/oppo_display/panel_pwr
+    chmod 0666 /sys/kernel/oppo_display/dimlayer_bl_en
+    chmod 0666 /sys/kernel/oppo_display/ffl_set
+    chmod 0666 /sys/kernel/oppo_display/dimlayer_hbm
+    chmod 0666 /sys/kernel/oppo_display/force_screenfp
+    chmod 0666 /sys/kernel/oppo_display/notify_fppress
+    chmod 0666 /sys/kernel/oppo_display/aod_light_mode_set
+    chmod 0666 /sys/kernel/oppo_display/power_status
+    chmod 0666 /sys/kernel/oppo_display/sau_closebl_node
+    chmod 0666 /sys/kernel/oppo_display/esd_status
+    chmod 0644 /data/oppo/multimedia/oppo_display_perf_list.xml
+    chmod 0666 /sys/kernel/oppo_display/spr
+    chmod 0666 /sys/kernel/oppo_display/write_panel_reg
+    chmod 0666 /sys/kernel/oppo_display/panel_serial_number
+    chmod 0666 /sys/kernel/oppo_display/serial_number
+    chmod 0666 /sys/kernel/oppo_display/mipi_clk_rate_hz
+    chmod 0666 /sys/kernel/oppo_display/osc_clock
+    chmod 0666 /sys/kernel/oppo_display/max_brightness
+#endif /* OPLUS_ARCH_EXTENDS */
+
