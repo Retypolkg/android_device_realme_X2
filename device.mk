@@ -264,6 +264,7 @@ PRODUCT_COPY_FILES += \
 
 # Parts
 PRODUCT_PACKAGES += \
+    RealmeParts \
     RealmeProximityHelper
 
 # Perf
