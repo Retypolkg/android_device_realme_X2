@@ -35,6 +35,7 @@
 #<src>                                                 <mnt_point>               <type>  <mnt_flags and options>                            <fs_mgr_flags>
 /dev/block/by-name/system                               /system                  ext4    ro,barrier=1                                     wait,avb,first_stage_mount
 /dev/block/by-name/vendor                               /vendor                  ext4    ro,barrier=1                                     wait,avb,first_stage_mount
+/dev/block/by-name/odm                                  /odm                     ext4    ro,barrier=1                                     wait,avb,first_stage_mount
 
 /dev/block/by-name/metadata                             /metadata                ext4    noatime,nosuid,nodev,discard                         wait,formattable,wrappedkey
 /dev/block/bootdevice/by-name/cache                     /cache                   ext4    nosuid,noatime,nodev,barrier=1,async_discard                wait
