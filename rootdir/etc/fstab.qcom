@@ -41,6 +41,7 @@
 #else
 /dev/block/by-name/system                               /system                  ext4    ro,barrier=1                                     wait,avb,first_stage_mount
 /dev/block/by-name/vendor                               /vendor                  ext4    ro,barrier=1                                     wait,avb,first_stage_mount
+/dev/block/by-name/metadata                             /metadata                ext4    noatime,nosuid,nodev,discard                         wait,formattable,wrappedkey
 /dev/block/bootdevice/by-name/cache                     /cache                   ext4    nosuid,noatime,nodev,barrier=1,async_discard                wait
 /dev/block/bootdevice/by-name/userdata                  /data                    ext4    noatime,nosuid,noatime,nodev,barrier=1,noauto_da_alloc,lazytime,errors=panic,inlinecrypt,async_discard     latemount,wait,resize,check,fileencryption=ice,quota,reservedsize=128M
 #endif
