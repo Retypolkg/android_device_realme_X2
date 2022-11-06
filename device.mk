@@ -245,6 +245,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
 
+# NFC
+PRODUCT_PACKAGES += \
+    com.android.nfc_extras \
+    android.hardware.nfc@1.2.vendor \
+    android.hardware.nfc@1.2-service \
+    android.hardware.secure_element@1.0-service-disabled \
+    NfcNci \
+    SecureElement \
+    Tag
+
 # Perf
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.2.vendor
@@ -292,7 +302,8 @@ PRODUCT_COPY_FILES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    vendor/nxp/opensource/sn100x
 
 # Telephony
 PRODUCT_PACKAGES += \
