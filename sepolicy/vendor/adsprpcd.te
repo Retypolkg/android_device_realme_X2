@@ -1,0 +1,2 @@
+r_dir_file(vendor_adsprpcd, proc_oppoversion);
+r_dir_file(vendor_adsprpcd, sysfs_oppo_display);

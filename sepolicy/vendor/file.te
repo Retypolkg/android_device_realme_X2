@@ -1,0 +1,34 @@
+# Oppo display
+type sysfs_oppo_display, fs_type, sysfs_type;
+
+# Touchpanel
+type proc_touchpanel, fs_type, proc_type;
+
+# Oppo Project version
+type proc_oppoversion, fs_type, proc_type;
+
+# Oppo FP
+type proc_oppo_fp, fs_type, proc_type;
+
+# Camera
+type vendor_persist_camera_file, file_type;
+
+# Devinfo
+type proc_devinfo, fs_type, proc_type;
+
+# Vibarator
+#type vibrator_sysfs, fs_type, sysfs_type;
+
+# Flash
+type proc_flash, fs_type, proc_type;
+
+# LCD
+type proc_lcd, fs_type, proc_type;
+
+# Oppo rf
+type proc_oppo_rf, fs_type, proc_type;
+
+# FW Update
+type proc_fw_update, fs_type, proc_type;
+
+type proc_decimal, fs_type, proc_type;

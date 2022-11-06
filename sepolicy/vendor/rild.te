@@ -1,0 +1,8 @@
+get_prop(rild, oppo_debug_prop);
+
+r_dir_file(rild, proc_devinfo);
+r_dir_file(rild, proc_oppo_rf);
+r_dir_file(rild, mnt_vendor_file);
+
+set_prop(rild, oppo_debug_prop);
+

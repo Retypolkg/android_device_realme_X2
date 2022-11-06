@@ -1,0 +1,20 @@
+# Camera
+vendor.oppo.hardware.camera.oppoAlgoProcessService::IOppoAlgoProcessService  u:object_r:hal_camera_hwservice:s0
+vendor.oppo.hardware.camera.oppopostproc::ICameraPostProc                    u:object_r:hal_camera_hwservice:s0
+
+# Fingerprint
+vendor.oplus.hardware.biometrics.fingerprint::IBiometricsFingerprint          u:object_r:hal_fingerprint_hwservice:s0
+
+# NFC
+vendor.nxp.nxpnfc::INxpNfc                                      u:object_r:nfc_hwservice:s0
+vendor.nxp.nxpese::INxpEse                                      u:object_r:nfc_hwservice:s0
+
+# Oppo
+vendor.oplus.hardware.commondcs::ICommonDcsHalService            u:object_r:hal_oppo_hwservice:s0
+
+vendor.oplus.hardware.orms::IOrmsHalProxy                      u:object_r:hal_oppo_hwservice:s0
+vendor.oplus.hardware.orms.ormsHalService::IOrmsHalService     u:object_r:hal_oppo_hwservice:s0
+
+vendor.oplus.hardware.radio::IOplusRadio              u:object_r:hal_telephony_hwservice:s0
+vendor.oplus.hardware.appradio::IOplusAppRadio        u:object_r:hal_telephony_hwservice:s0
+vendor.oplus.hardware.ims::IOplusImsRadio             u:object_r:hal_telephony_hwservice:s0

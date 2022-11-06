@@ -1,0 +1,4 @@
+allow hal_perf_default vendor_hal_display_config_hwservice:hwservice_manager find;
+
+r_dir_file(hal_perf_default, proc_meminfo);
+r_dir_file(hal_perf_default, vendor_sysfs_kgsl_proc);

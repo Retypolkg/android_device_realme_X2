@@ -1,0 +1,11 @@
+type hal_oppo_default, domain;
+hal_server_domain(hal_oppo_default, hal_oppo)
+
+binder_call(hal_oppo_client, hal_oppo_server)
+binder_call(hal_oppo_server, hal_oppo_client)
+
+allow hal_oppo_client hal_oppo_hwservice:hwservice_manager find;
+add_hwservice(hal_oppo_server, hal_oppo_hwservice)
+
+type hal_oppo_default_exec, exec_type, vendor_file_type, file_type;
+init_daemon_domain(hal_oppo_default)

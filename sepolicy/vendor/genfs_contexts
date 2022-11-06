@@ -1,0 +1,62 @@
+# Oppo Display
+genfscon sysfs /kernel/oppo_display      u:object_r:sysfs_oppo_display:s0
+
+# Touchpanel
+genfscon proc /touchpanel              u:object_r:proc_touchpanel:s0
+
+# Oppo Project Version
+genfscon proc /oppoVersion                      u:object_r:proc_oppoversion:s0
+genfscon proc /oplusVersion                      u:object_r:proc_oppoversion:s0
+
+# Oppo FP
+genfscon proc /fp_id                     u:object_r:proc_oppo_fp:s0
+
+# Power supply
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-00/c440000.qcom,spmi:qcom,pm6150@0:qcom,qpnp-smb5/power_supply/ac u:object_r:vendor_sysfs_usb_supply:s0
+
+# Devinfo
+genfscon proc /devinfo        u:object_r:proc_devinfo:s0
+
+# Vibrator
+#genfscon sysfs /class/leds/vibrator/vmax_mv u:object_r:vibrator_sysfs:s0
+
+# Flash
+genfscon proc /qcom_flash         u:object_r:proc_flash:s0
+genfscon proc /qcom_flash1        u:object_r:proc_flash:s0
+
+# LCD
+genfscon proc /lcd_type           u:object_r:proc_lcd:s0
+
+# Oppo rf
+genfscon proc /oppo_rf            u:object_r:proc_oppo_rf:s0
+
+# Wakeup stats
+genfscon sysfs /devices/platform/soc/88e0000.qcom,msm-eud/wakeup    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/diag/diag    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-00/c440000.qcom,spmi:qcom,pm6150@0:qcom,qpnp-smb5/power_supply/ac/wakeup    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/fastrpc/adsprpc-smd/wakeup    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/fastrpc/adsprpc-smd-secure/wakeup    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/soc:gpio_keys/wakeup    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/misc/msm_aac/wakeup   u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/misc/msm_alac/wakeup    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/misc/msm_amrnb/wakeup    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/misc/msm_amrwb/wakeup    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/misc/msm_amrwbplus/wakeup    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/misc/msm_ape/wakeup  u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/misc/msm_evrc/wakeup    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/misc/msm_g711alaw/wakeup    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/misc/msm_g711mlaw/wakeup    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/misc/msm_mp3/wakeup    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/misc/msm_multi_aac/wakeup    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/misc/msm_qcelp/wakeup    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/misc/msm_wma/wakeup    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/misc/msm_wmapro/wakeup    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/18800000.qcom,icnss/wakeup    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,msm-audio-apr/soc:qcom,msm-audio-apr:qcom,q6core-audio/soc:qcom,msm-audio-apr:qcom,q6core-audio:bolero-cdc/rx-macro/rx_swr_ctrl/wakeup    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,msm-audio-apr/soc:qcom,msm-audio-apr:qcom,q6core-audio/soc:qcom,msm-audio-apr:qcom,q6core-audio:bolero-cdc/tx-macro/tx_swr_ctrl/wakeup    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/880000.i2c/i2c-0/0-0028/wakeup    u:object_r:sysfs_wakeup:s0
+
+# FW Update
+genfscon proc /fastchg_fw_update              u:object_r:proc_fw_update:s0
+
+genfscon proc /ui_soc_decimal              u:object_r:proc_decimal:s0
