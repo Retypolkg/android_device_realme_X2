@@ -129,6 +129,9 @@ ENABLE_VENDOR_RIL_SERVICE := true
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 TARGET_USES_PRE_UPLINK_FEATURES_NETMGRD := true
 
+# Security patch level
+VENDOR_SECURITY_PATCH := 2021-10-05
+
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 
