@@ -773,7 +773,7 @@ odm/vendor/firmware/goodixfp.b07
 odm/vendor/firmware/goodixfp.mdt
 
 # Health
-vendor/bin/hw/android.hardware.health@2.1-service
+vendor/bin/hw/android.hardware.health@2.1-service:vendor/bin/hw/android.hardware.health@2.1-service.RMX1993
 
 # IOP
 vendor/bin/hw/vendor.qti.hardware.iop@2.0-service

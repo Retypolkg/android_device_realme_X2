@@ -1112,6 +1112,20 @@ service vendor.contexthub-hal-1-0 /vendor/bin/hw/android.hardware.contexthub@1.0
     group system
     disabled
 
+service health-hal-2-1 /vendor/bin/hw/android.hardware.health@2.1-service
+    override
+    class hal charger
+    user system
+    group system
+    capabilities WAKE_ALARM BLOCK_SUSPEND
+    disabled
+
+service health-hal-2-1.RMX1931 /vendor/bin/hw/android.hardware.health@2.1-service.RMX1993
+    class hal charger
+    user system
+    group system
+    capabilities WAKE_ALARM BLOCK_SUSPEND
+
 #Bolun.Shan@PSW.CN.WiFi.Basic.1065227,2020/9/23
 #Add for wifi sar setting on Android R
 service wifisar /vendor/bin/wifisar
