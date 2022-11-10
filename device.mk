@@ -112,6 +112,9 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor \
     vendor.qti.hardware.camera.device@1.0.vendor
 
+# Configstore
+PRODUCT_PACKAGES += \
+    disable_configstore
 
 # Display
 PRODUCT_PACKAGES += \
