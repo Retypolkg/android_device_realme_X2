@@ -77,7 +77,6 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libaudio-resampler \
     libtinycompress \
-    libtinycompress.vendor \
     libvolumelistener \
     tinymix
 
@@ -129,11 +128,9 @@ PRODUCT_PACKAGES += \
     memtrack.sm6150 \
     libqdMetaData \
     libqdMetaData.system \
-    libqdMetaData.vendor \
     libtinyxml \
     libvulkan \
     libdisplayconfig.qti \
-    libdisplayconfig.qti.vendor \
     libdisplayconfig.system.qti \
     vendor.display.config@1.14.vendor \
     vendor.display.config@2.0.vendor \
