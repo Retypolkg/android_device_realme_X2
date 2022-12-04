@@ -70,6 +70,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.soundtrigger@2.1-impl \
+    audio.bluetooth.default \
     audio.r_submix.default \
     audio.usb.default \
     libqcompostprocbundle \
