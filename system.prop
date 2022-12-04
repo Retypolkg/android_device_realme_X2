@@ -72,7 +72,6 @@ ril.subscription.types=RUIM
 use.voice.path.for.pcm.voip=true
 ro.telephony.default_network=22,22
 ro.vendor.use_data_netmgrd=true
-persist.vendor.data.mode=concurrent
 persist.data.wda.enable=true
 persist.data.df.dl_mode=5
 persist.data.df.ul_mode=5
