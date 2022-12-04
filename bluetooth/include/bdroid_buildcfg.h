@@ -23,21 +23,6 @@
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
 
-#define BTM_DEF_LOCAL_NAME   "Realme X2"
-
-#include <stdint.h>
-#include <string.h>
-
-#ifdef __cplusplus
-extern "C" {
-#endif
-int property_get(const char *key, char *value, const char *default_value);
-#ifdef __cplusplus
-}
-#endif
-
-#include "osi/include/osi.h"
-
 // Disables read remote device feature
 #define MAX_ACL_CONNECTIONS   16
 #define MAX_L2CAP_CHANNELS    16
