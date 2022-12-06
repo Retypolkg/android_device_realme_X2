@@ -40,11 +40,8 @@ int property_get(const char *key, char *value, const char *default_value);
 
 // Disables read remote device feature
 #define MAX_ACL_CONNECTIONS   16
-#define MAX_L2CAP_CHANNELS    32
+#define MAX_L2CAP_CHANNELS    16
 #define BLE_VND_INCLUDED   TRUE
-#define GATT_MAX_PHY_CHANNEL  10
-// Skips conn update at conn completion
-#define BT_CLEAN_TURN_ON_DISABLED 1
-#define AVDT_NUM_SEPS 35
+#define AVDT_NUM_SEPS 12
 
 #endif

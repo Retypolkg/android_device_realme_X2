@@ -1,24 +1,5 @@
 # Bluetooth
 vendor.bluetooth.soc=cherokee
-ro.bluetooth.library_name=libbluetooth_qti.so
-persist.vendor.bt.a2dp.aac_whitelist=false
-persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aptxadaptive-aac-ldac 
-persist.vendor.btstack.enable.splita2dp=true
-persist.sys.bluetooth.wearcheck_support=true
-persist.bluetooth.disableabsvol=false
-persist.vendor.service.bt.iot.enablelogging
-persist.vendor.bluetooth.a2dp.hal.implementation=true
-persist.vendor.bt.a2dp.hal.implementation=true
-persist.bluetooth.disableinbandringing=false
-persist.bluetooth.specificatcmdsenable=true
-persist.vendor.bluetooth.modem_nv_support=true
-persist.vendor.service.bt.iotinfo.report.enable=true
-persist.vendor.btstack.enable.twsplus=true
-persist.vendor.btstack.enable.twsplussho=true
-persist.bluetooth.bqr.event_mask=0x8000000E
-persist.bluetooth.bqr.min_interval_ms=60000
-persist.bluetooth.bqr.choppy_threshold=9,6
-persist.bluetooth.a2dp.lhdc=true
 
 # Camera
 vendor.camera.aux.packagelist=com.android.camera
