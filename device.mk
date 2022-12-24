@@ -162,15 +162,32 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
 
-# GNSS
+# GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@1.1.vendor \
     android.hardware.gnss@2.1.vendor
 
-# GPS
-PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/gps/vendor/,$(TARGET_COPY_OUT_VENDOR)/etc) \
-    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/gps/odm/,$(TARGET_COPY_OUT_ODM)/etc)
+PRODUCT_PACKAGES += \
+    apdr.conf \
+    flp.conf \
+    gnss_antenna_info.conf \
+    gps.conf \
+    izat.conf \
+    lowi.conf \
+    sap.conf \
+    gnss@2.0-base.policy \
+    gnss@2.0-xtra-daemon.policy \
+    gnss@2.0-xtwifi-client.policy \
+    gnss@2.0-xtwifi-inet-agent.policy
+
+PRODUCT_PACKAGES += \
+    libbatching \
+    libgeofencing \
+    libgnss
+ 
+PRODUCT_PACKAGES += \
+    android.hardware.gnss@2.1-impl-qti \
+    android.hardware.gnss@2.1-service-qti
 
 # Health
 PRODUCT_PACKAGES += \

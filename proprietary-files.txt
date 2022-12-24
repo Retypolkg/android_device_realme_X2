@@ -644,37 +644,27 @@ vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 
 # GPS - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
-vendor/bin/hw/android.hardware.gnss@2.1-service-qti|7984c4792e8b9fcb489f631563f4c40cff7b3bb1
 vendor/bin/garden_app|177597e4f5afaae68f53840624262c9853f50696
 vendor/bin/loc_launcher|64ba2a8214ecdc70965c4a9025321e12bc50f793
 vendor/bin/lowi-server|6a78b8e8ff3267277a49f78a7ba11498229ed2fb
 vendor/bin/xtra-daemon|a832090f030ac09937d0e47dc55758b4710f6c6e
 vendor/bin/xtwifi-client|ed0895aaf362cf11e529e1f8c1601f0591c8e7b1
 vendor/bin/xtwifi-inet-agent|2453d2776049b9ef2b29f6abe1256359f321a088
-vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc|d3844699c845ce5de4c8b50548a2095f92dd0235
--vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml|1c344aacaa6d17a1585ba58b2e6d438dcfe31fad
 -vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
 vendor/etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
 vendor/etc/xtwifi.conf|ac2189707c0016c31846ccec73e8857d7f566605
-vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so|ef74262f9917c3ac0d0f4639829b11ef788ef797
 vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so|85d86cfcf3cf60dc69974ed71b17dc6dc8c40381
 vendor/lib64/libaoa.so|18ede2be687d01cdb323e0cff2c7545e2578f21f
-vendor/lib64/libbatching.so|4be8453ee71b858d5296c6f42fe1273005e9440f
 vendor/lib64/libdataitems.so|942a04a284ca2c088f726d5cd40cbabaca12664c
 vendor/lib64/libgarden.so|8280148f80c15a992720e84222b22f641525a17e
 vendor/lib64/libgarden_haltests_e2e.so|d0924ec8e0d4a130cc9bb00c04efd91964f11a49
 vendor/lib64/libgdtap.so|ad5583ba837678f78c84a7ff64a4fae5a3b1097d
-vendor/lib64/libgeofencing.so|8c22ec8da5ca6db950665a3b365297bff1ec3ed8
-vendor/lib64/libgnss.so|181b127ece108683d9e04c5852fe59ff03811f90
 vendor/lib64/libgnsspps.so|0522543abb745e616e495613b171cb4e65e97321
-vendor/lib64/libgps.utils.so|aebfe086179ebd5e9623ab0a01cbbf77da83cb5c
 vendor/lib64/libizat_client_api.so|67611af03e4622aa4ab8f00aca4c44678972016e
 vendor/lib64/libizat_core.so|3b197e431d6b311ec949ba8d2b565aaf45253d26
 vendor/lib64/liblbs_core.so|41b578c7fb1fd1e18c2eb64aebf6119182e9311a
 vendor/lib64/libloc_api_v02.so|515e8e2a2511c4ce30753e091f3f3286930948d4
-vendor/lib64/libloc_core.so|dc499068e79983b77858f52e95544e082a4f528a
 vendor/lib64/libloc_socket.so|df799255c50ef4ee67fdb1042f2877ac5be8307a
-vendor/lib64/liblocation_api.so|0efd02d19b17cb608000267194455954fce7856b
 vendor/lib64/liblocationservice.so|a61183f6919d64ca0818cc95f3fa12abed784b63
 vendor/lib64/liblocationservice_glue.so|39087f6c4309f695864b7f0f2768ff85e2bce838
 vendor/lib64/liblowi_client.so|59d98f1cfdec67eb0f7115066aeab43e4304c95c
@@ -691,6 +681,11 @@ vendor/lib64/vendor.qti.gnss@2.1.so|62d2036fb2fec16c00fd3f04f9b8a846719f5f49
 vendor/lib64/vendor.qti.gnss@3.0.so|491917101ba1182d0a6f849323690f5636277447
 vendor/lib64/vendor.qti.gnss@4.0-service.so|d4ad241375b02946f2822888f7cc95704210a929
 vendor/lib64/vendor.qti.gnss@4.0.so|5ef1845cf0a310a52bfbdbc719685270ea4e39b3
+
+# GPS configs (odm)
+odm/etc/gps.conf
+odm/etc/izat.conf
+odm/etc/sap.conf
 
 # Graphics (Adreno) - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 -vendor/app/com.qualcomm.qti.gpudrivers.sm6150.api30/com.qualcomm.qti.gpudrivers.sm6150.api30.apk|c3601f567e672f5493fd8015d858d78399b891f2
