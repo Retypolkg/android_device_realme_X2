@@ -659,7 +659,6 @@ vendor/lib64/libdataitems.so|942a04a284ca2c088f726d5cd40cbabaca12664c
 vendor/lib64/libgarden.so|8280148f80c15a992720e84222b22f641525a17e
 vendor/lib64/libgarden_haltests_e2e.so|d0924ec8e0d4a130cc9bb00c04efd91964f11a49
 vendor/lib64/libgdtap.so|ad5583ba837678f78c84a7ff64a4fae5a3b1097d
-vendor/lib64/libgnsspps.so|0522543abb745e616e495613b171cb4e65e97321
 vendor/lib64/libizat_client_api.so|67611af03e4622aa4ab8f00aca4c44678972016e
 vendor/lib64/libizat_core.so|3b197e431d6b311ec949ba8d2b565aaf45253d26
 vendor/lib64/liblbs_core.so|41b578c7fb1fd1e18c2eb64aebf6119182e9311a
@@ -671,7 +670,6 @@ vendor/lib64/liblowi_client.so|59d98f1cfdec67eb0f7115066aeab43e4304c95c
 vendor/lib64/liblowi_wifihal.so|db59c80dc7f36b4b6498bea7acea2f9be5234f7c
 vendor/lib64/libqcc_file_agent.so|cd70ce305d5036a027060aa989b0dcbcfab8edb6
 vendor/lib64/libqdma_file_agent.so|061880c4cd706af3df2bf728bf9d89d2efc83ca2
-vendor/lib64/libsynergy_loc_api.so|f6a44f3e1b30341b7053d341d67b5608c81fc7dd
 vendor/lib64/libxtadapter.so|caf0ca0a97e43a20fcd584e12c280a1654fc6b00
 vendor/lib64/vendor.qti.gnss@1.0.so|9cb7921c8310d1bca9385c997965abf64e8937df
 vendor/lib64/vendor.qti.gnss@1.1.so|62d38c1b5e02205f64ca98cce2f8309054fd6d70

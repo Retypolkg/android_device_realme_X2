@@ -184,7 +184,11 @@ PRODUCT_PACKAGES += \
     libbatching \
     libgeofencing \
     libgnss
- 
+
+PRODUCT_PACKAGES += \
+    libgnsspps \
+    libsynergy_loc_api
+
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-impl-qti \
     android.hardware.gnss@2.1-service-qti
