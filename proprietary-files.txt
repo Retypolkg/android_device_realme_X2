@@ -447,21 +447,21 @@ vendor/lib64/qcom.camera.log.so
 # Camera firmware
 vendor/firmware/CAMERA_ICP.elf
 
-# CDSP
-vendor/bin/cdsprpcd
-vendor/etc/init/vendor.qti.cdsprpc-service.rc
-vendor/lib/libcdsp_default_listener.so
-vendor/lib/libcdsprpc.so
-vendor/lib/libmdsprpc.so
-vendor/lib/libsdsprpc.so
-vendor/lib/libsysmon_cdsp_skel.so
-vendor/lib64/libcdfw.so
-vendor/lib64/libcdfw_remote_api.so
-vendor/lib64/libcdsp_default_listener.so
-vendor/lib64/libcdsprpc.so
-vendor/lib64/libmdsprpc.so
-vendor/lib64/libsdsprpc.so
-vendor/lib64/libsysmon_cdsp_skel.so
+# CDSP - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/bin/cdsprpcd|530bcfcf9a31dedcc6c8ff5ea33fbaf8c03ab877
+vendor/etc/init/vendor.qti.cdsprpc-service.rc|36772b70216796e8ef19376d9c6a81ee9ffff549
+vendor/lib/libcdsp_default_listener.so|6a3f97faf26da3d01f7895d37c09c8bc62030e0a
+vendor/lib/libcdsprpc.so|4e96a58922494800b65ac0f269db23fd7aeb3ae3
+vendor/lib/libmdsprpc.so|aa282b4586db545af420aeaa8db56d295458c8fa
+vendor/lib/libsdsprpc.so|5840457471e6ec0be98be444018134ad449627f1
+vendor/lib/libsysmon_cdsp_skel.so|b0dd56ca83493e68dc7610d44045849bb3bd8c38
+vendor/lib64/libcdfw.so|70ef0247c71d590b503471a03d4aaa76d99441e9
+vendor/lib64/libcdfw_remote_api.so|faaf6c57e4c1c40d5e604d6932704bf63d883e96
+vendor/lib64/libcdsp_default_listener.so|81e5f4737bfb7e2f0a906183b2a8357a5053ee5c
+vendor/lib64/libcdsprpc.so|c9eb743013b62cdfa13eaf1f9c29945d2d3de826
+vendor/lib64/libmdsprpc.so|8809bf6a1205973af25b5fc70a6fbef51b19d4cc
+vendor/lib64/libsdsprpc.so|3955edaff3a2950999f14b0b45c0507bb22a7410
+vendor/lib64/libsysmon_cdsp_skel.so|8a951e039071107317e0e7541ff4df7ad35d87ad
 
 # Certificate Authority - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 -vendor/app/CACertService/CACertService.apk|a430eb051f565ff00f4d8d2aa2dd2a7c8c3bec90
