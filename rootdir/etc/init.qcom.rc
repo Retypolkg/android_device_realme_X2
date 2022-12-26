@@ -579,14 +579,6 @@ service qmiproxy /system/bin/qmiproxy
     group radio diag
     disabled
 
-# Adjust socket buffer to enlarge TCP receive window for high bandwidth
-# but only if ro.data.large_tcp_window_size property is set.
-on property:ro.data.large_tcp_window_size=true
-    write /proc/sys/net/ipv4/tcp_adv_win_scale  2
-
-on property:sys.sysctl.tcp_adv_win_scale=*
-    write /proc/sys/net/ipv4/tcp_adv_win_scale ${sys.sysctl.tcp_adv_win_scale}
-
 #ifndef OPLUS_BUG_STABILITY
 #HuiTao@CONNECTIVITY.WIFI.BASE.1072015, 2015/04/24,
 #Modify for:close defualt debug log of wpa_supplicant
@@ -828,10 +820,6 @@ service ims_regmanager /system/vendor/bin/exe-ims-regmanagerprocessnative
 
 on property:persist.ims.regmanager.mode=1
     start ims_regmanager
-
-on property:ro.data.large_tcp_window_size=true
-    # Adjust socket buffer to enlarge TCP receive window for high bandwidth (e.g. DO-RevB)
-    write /proc/sys/net/ipv4/tcp_adv_win_scale  2
 
 service battery_monitor /system/bin/battery_monitor
     user system
