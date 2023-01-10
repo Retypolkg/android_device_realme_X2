@@ -132,7 +132,6 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
     gralloc.sm6150 \
-    lights.sm6150 \
     hwcomposer.sm6150 \
     memtrack.sm6150 \
     libqdMetaData \
