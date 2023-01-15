@@ -29,8 +29,6 @@ function blob_fixup() {
         system_ext/lib64/lib-imsvideocodec.so)
             "${PATCHELF}" --add-needed "lib-imsvtshim.so" "${2}"
             ;;
-        product/etc/permissions/com.android.hotwordenrollment.common.util.xml)
-            sed -i "s|my_product|product|" "${2}"
     esac
 }
 

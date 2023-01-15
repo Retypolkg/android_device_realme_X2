@@ -769,12 +769,6 @@ odm/vendor/firmware/goodixfp.mdt
 # Health
 vendor/bin/hw/android.hardware.health@2.1-service:vendor/bin/hw/android.hardware.health@2.1-service.RMX1993
 
-# Hotword Enrollment - from RMX2063_11_C.23
-my_product/etc/permissions/com.android.hotwordenrollment.common.util.xml:product/etc/permissions/com.android.hotwordenrollment.common.util.xml|52b6a326e59e543daac9b8d6e960654095c0fb6b
-my_product/etc/permissions/com.android.hotwordenrollment.okgoogle.xml:product/etc/permissions/com.android.hotwordenrollment.okgoogle.xml|57d16f0f2504b9b59655bdc00ab50071f9e55fa9
-my_product/framework/com.android.hotwordenrollment.common.util.jar:product/framework/com.android.hotwordenrollment.common.util.jar|714382db8d12aca9f5388dd72060e867e30d88e4
-my_product/priv-app/HotwordEnrollmentOKGoogleHEXAGON.apk:product/priv-app/HotwordEnrollmentOKGoogleHEXAGON.apk|9d08a3dac1234f7a1531eac4f1b84c5f64f75df8
-
 # IOP
 vendor/bin/hw/vendor.qti.hardware.iop@2.0-service
 vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc
