@@ -173,7 +173,6 @@ ro.soc.model=SM7150
 # Graphics
 debug.egl.hw=0
 debug.mdpcomp.logs=0
-debug.sf.disable_backpressure=1
 debug.sf.enable_gl_backpressure=1
 debug.sf.early_phase_offset_ns=500000
 debug.sf.early_app_phase_offset_ns=500000
