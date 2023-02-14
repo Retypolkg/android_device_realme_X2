@@ -218,10 +218,6 @@ ro.hardware.nfc_nci=nqx.default
 
 # PASR
 vendor.pasr.activemode.enabled=true
-vendor.power.pasr.enabled=false
-
-# Perf
-ro.vendor.extension_library=libqti-perfd-client.so
     
 # RCS
 persist.rcs.supported=0
