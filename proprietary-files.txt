@@ -1121,21 +1121,19 @@ vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
 vendor/radio/qcril_database/qcril.db
 
-# IMS - from LA.QSSI.11.0.r1-11000-qssi.0
--system_ext/priv-app/ims/ims.apk|7c243d450cc215be2b0187d5e3e6cd01059b8cc1
-
 # Radio - IMS (odm)
 odm/lib64/vendor.oplus.hardware.ims@1.0.so
 
-# Radio - IMS (system)
-system_ext/lib64/lib-imsvideocodec.so
-system_ext/lib64/lib-imsvt.so
-system_ext/lib64/lib-imsvtextutils.so
-system_ext/lib64/lib-imsvtutils.so
-system_ext/lib64/libdiag_system.so
-system_ext/lib64/libimscamera_jni.so
-system_ext/lib64/libimsmedia_jni.so
-system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
+# Radio - IMS (system) - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+system_ext/lib64/lib-imsvideocodec.so|47d8144f62405a121d0b6ff10c41667350288524
+system_ext/lib64/lib-imsvt.so|f795cc87119b49587dbb1f3e4349fcf67b0610ed
+system_ext/lib64/lib-imsvtextutils.so|50a092eb7b490f4307bddb3d5a4c595b458bc503
+system_ext/lib64/lib-imsvtutils.so|9a7f904b12a066038c2b5725610e8dd45e3f75ed
+system_ext/lib64/libdiag_system.so|46b48593c913d5cbb05518b31721bb0f33e6c1ba
+system_ext/lib64/libimscamera_jni.so|0394fbe375893f9aa2fee5e28e5c657575025a12
+system_ext/lib64/libimsmedia_jni.so|a8271a46c31ed50a1f7f94d7ec78fb534f432296
+system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|34da5e45ae4817ccff75c6b8d1d0c125ebd253ed
+-system_ext/priv-app/ims/ims.apk|ed68ecd630ddbd49e88bd0b2e3b50ee35c334ef0
 
 # Radio - IMS (vendor)
 vendor/bin/ims_rtp_daemon
