@@ -472,8 +472,11 @@ vendor/lib64/vendor.qti.hardware.cacert@1.0.so|1633c31212d1ea9338b79ebfc2476f834
 
 # Charger (HVDCP)
 vendor/bin/hvdcp_opti
-vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
-vendor/etc/charger_fstab.qti
+
+# Charger (HVDCP) - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/bin/init.qti.chg_policy.sh|9a96b05abdfe149eb8a7e20a791284e84b5fffe0
+vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc|29b23be4f604282abf715f86aec9697175a9aaad
+vendor/etc/charger_fstab.qti|8464c139d93f05e86ff9c9d31b3e8617b8d9476e
 
 # CNE
 -vendor/app/CneApp/CneApp.apk
