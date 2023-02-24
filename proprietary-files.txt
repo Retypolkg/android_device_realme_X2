@@ -134,9 +134,9 @@ vendor/lib64/libssrec.so
 odm/lib/libaudioEngineerTest.so
 odm/lib64/libaudioEngineerTest.so
 
-# Audio HAL (system)
-system_ext/etc/permissions/audiosphere.xml
--system_ext/framework/audiosphere.jar
+# Audio HAL (system) - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+system_ext/etc/permissions/audiosphere.xml|015ad7be4921039238bfa3d34d052d752453e49c
+-system_ext/framework/audiosphere.jar|9c28317f12b93a6d881c80a991ff24716fce4a12
 
 # Audio HAL (vendor)
 vendor/bin/audioflacapp
@@ -174,9 +174,9 @@ vendor/lib64/soundfx/libqcvirt.so
 vendor/lib64/soundfx/libreverbwrapper.so
 vendor/lib64/soundfx/libshoebox.so
 
-# AudioHal Ext
-system_ext/lib/vendor.qti.hardware.audiohalext@1.0.so
-system_ext/lib64/vendor.qti.hardware.audiohalext@1.0.so
+# AudioHal Ext - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+system_ext/lib/vendor.qti.hardware.audiohalext@1.0.so|f4dffa80617772c2285bce1cabe00ecd1d1bd88b
+system_ext/lib64/vendor.qti.hardware.audiohalext@1.0.so|d89ee5365457994271e670102edf82db98f65fcb
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
