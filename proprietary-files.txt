@@ -548,15 +548,15 @@ vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc|4ede025
 vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|4bd1bd6f52807b2e32e641dc32e7ad7994424520
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|e70fda0288c646d0daf0ed0eef2f21855dd8d024
 
-# CVP
-system_ext/lib/vendor.qti.hardware.cvp@1.0-adapter-helper.so
-system_ext/lib/vendor.qti.hardware.cvp@1.0.so
-system_ext/lib64/vendor.qti.hardware.cvp@1.0-adapter-helper.so
-system_ext/lib64/vendor.qti.hardware.cvp@1.0.so
-vendor/lib64/libcvp.so
-vendor/lib64/libcvp_common.so
-vendor/lib64/libcvp_stub.so
-vendor/lib64/vendor.qti.hardware.cvp@1.0.so
+# CVP - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+system_ext/lib/vendor.qti.hardware.cvp@1.0-adapter-helper.so|096c261bb3c75223a35a3d7cbc2d9daf77dc4ce1
+system_ext/lib/vendor.qti.hardware.cvp@1.0.so|fac4917617381f17a0a657de96a70d757756370c
+system_ext/lib64/vendor.qti.hardware.cvp@1.0-adapter-helper.so|50e2c043199fd89ac79870a3db52b43bf1a664c7
+system_ext/lib64/vendor.qti.hardware.cvp@1.0.so|ac68aa76d1b4f310f4cbc03f9a90eb0fa7eda527
+vendor/lib64/libcvp.so|08b4c2b43b8f362d17c4f1becd43eae12e07ec4f
+vendor/lib64/libcvp_common.so|0c19503711057ef3fbf4fba771a310b29518bcda
+vendor/lib64/libcvp_stub.so|fb966906a26400862f65f84a30db7cb000b0291a
+vendor/lib64/vendor.qti.hardware.cvp@1.0.so|64176b1c9de2be09d0ff841006027ef89cd1cec4
 
 # Display calibration data
 vendor/etc/qdcm_calib_data_oppo19031samsung_AMS655LSI60_1080_2400_cmd_mode_dsi_panel.xml
