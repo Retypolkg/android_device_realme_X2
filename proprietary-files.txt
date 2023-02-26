@@ -1314,8 +1314,8 @@ vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
-# Subsystem
-vendor/bin/ssr_setup
+# Subsystem - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/bin/ssr_setup|38705dd33487011473d0d3a0add5fd97ac71469e
 
 # Thermal
 vendor/bin/thermal-engine
