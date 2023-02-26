@@ -929,9 +929,9 @@ odm/etc/init/init.network.rc
 odm/lib64/libormshalclient.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
 
-# PASR
-vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so
-vendor/lib64/vendor.qti.power.pasrmanager@1.0.so
+# PASR - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so|f9daa32eae1410ecc258d1bede6b0b51289d6892
+vendor/lib64/vendor.qti.power.pasrmanager@1.0.so|b65beb3fdad836dd56ae57e2bc54091ee0b2c5e9
 
 # Perf
 system_ext/etc/seccomp_policy/perfservice.policy
