@@ -807,20 +807,20 @@ vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqcbor.so
 vendor/lib64/libqtikeymaster4.so
 
-# Listen
-vendor/lib/libadpcmdec.so
-vendor/lib/libcapiv2svacnn.so
-vendor/lib/libcapiv2vop.so
-vendor/lib/libgcs-calwrapper.so
-vendor/lib/libgcs-ipc.so
-vendor/lib/libgcs-osal.so
-vendor/lib/libgcs.so
-vendor/lib/liblistensoundmodel2.so
-vendor/lib/libmulawdec.so
-vendor/lib/libsmemlog.so
-vendor/lib/libsmwrapper.so
-vendor/lib/libstreamparser.so
-vendor/lib/libvideoutils.so
+# Listen - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/lib/libadpcmdec.so|297d8fecff85b6dc67ff19e788bcf3f1286014a0
+vendor/lib/libcapiv2svacnn.so|c897fbba664fcb0ea1951d3220d8db54ae0d7995
+vendor/lib/libcapiv2vop.so|1cceaefcc1ca55de5bc932a846091e6702c5d508
+vendor/lib/libgcs-calwrapper.so|7252aa60ff6d0f457b01500201ae62505001b458
+vendor/lib/libgcs-ipc.so|c08cf037dd080321b58fa96128fe419d8f26fb15
+vendor/lib/libgcs-osal.so|05738a19c7e9a406ca6ffad597a7dd366ed0c5bc
+vendor/lib/libgcs.so|4770f7e7eb730aa6051f1678a4421e8aeb2807c5
+vendor/lib/liblistensoundmodel2.so|d96f8a4466c34a737fdd24a33c082ff8150f42ff
+vendor/lib/libmulawdec.so|89ebb1d9e77911f1abe37405016839d8436a9825
+vendor/lib/libsmemlog.so|b3c6132388bee5db13a61f1f287bd78df131b63f
+vendor/lib/libsmwrapper.so|6c54b63ef92319b660854065623f30e8b94d3444
+vendor/lib/libstreamparser.so|0b2a8233f502d24c87e21e6a57d57a0a51f3445e
+vendor/lib/libvideoutils.so|bef54e0b843387a01fcf1f9f27f2ef0ff9981de7
 
 # Machine learning
 vendor/bin/npu_launcher
