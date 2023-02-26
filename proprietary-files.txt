@@ -826,9 +826,9 @@ vendor/lib/libvideoutils.so|bef54e0b843387a01fcf1f9f27f2ef0ff9981de7
 vendor/bin/npu_launcher|ab20fb0d6c49f2c61e4d094ab06634d2fadd5ffc
 vendor/lib64/libnpu.so|4d2599753d7f5ae830a7432fa2152beb1927e14a
 
-# MM OSAL
-vendor/lib/libmmosal.so
-vendor/lib64/libmmosal.so
+# MM OSAL - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/lib/libmmosal.so|37febc914b2c706a5df0009cc134e9d80690aec0
+vendor/lib64/libmmosal.so|dc6b82fa8d1bd1e7ee0c9dba2ec45b6b032efff0
 
 # Media
 system_ext/lib/libmmosal.so
