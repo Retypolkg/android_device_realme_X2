@@ -992,9 +992,9 @@ vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|3ff445db2dd2db1a1068fe70a54a6c
 vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so|58dd8c5877ba3a274f43f63e6f033213dd84e1c4
 vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so|01b1d11316f5dcd8c1012a55ff01399081c79940
 
-# QDCM
-vendor/bin/qdcmss
-vendor/etc/init/qdcmss.rc
+# QDCM - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/bin/qdcmss|a1bb68e4508feac29c821eb791cae8b1db235e28
+vendor/etc/init/qdcmss.rc|53d78d686678c4f923a9ec4ace7d4d3575b13788
 
 # Qualcomm MSM Interface
 system_ext/etc/permissions/qti_permissions.xml
