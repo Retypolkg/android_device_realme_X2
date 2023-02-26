@@ -957,10 +957,10 @@ vendor/lib64/libqti-utils.so
 vendor/lib64/libreffeature.so
 vendor/lib64/libskewknob.so
 
-# Peripheral
-vendor/bin/pm-proxy
-vendor/bin/pm-service
-vendor/lib64/libperipheral_client.so
+# Peripheral - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/bin/pm-proxy|0704192692efb4b79e8cb1a2252625ad24468805
+vendor/bin/pm-service|1a48e2a015181b351374b99053fb5dee8e2750ee
+vendor/lib64/libperipheral_client.so|9bfd41e276e16b8f7c6808f3d87531fc5be4cdd5
 
 # Permissions - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 product/etc/permissions/telephony_product_privapp-permissions-qti.xml|42f4553b61731e56d253766554d4479519cea3ff
