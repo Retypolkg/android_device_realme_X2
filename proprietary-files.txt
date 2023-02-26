@@ -1293,19 +1293,19 @@ vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc|7cf06148da8955
 -vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml|40b6abd9b4be99dc5722eb60d71ee36764bf4ef3
 vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so|aaf96ed4e3ca1b29005526cc45889e0b9a99c93f
 
-# Snapdragon Computer Vision Engine
-vendor/lib/libscveCommon.so
-vendor/lib/libscveCommon_stub.so
-vendor/lib/libscveObjectSegmentation.so
-vendor/lib/libscveObjectSegmentation_stub.so
-vendor/lib/libscveObjectTracker.so
-vendor/lib/libscveObjectTracker_stub.so
-vendor/lib64/libscveCommon.so
-vendor/lib64/libscveCommon_stub.so
-vendor/lib64/libscveObjectSegmentation.so
-vendor/lib64/libscveObjectSegmentation_stub.so
-vendor/lib64/libscveObjectTracker.so
-vendor/lib64/libscveObjectTracker_stub.so
+# Snapdragon Computer Vision Engine - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/lib/libscveCommon.so|4be56b846f71f4ba8032471abf9f02dc5b01810c
+vendor/lib/libscveCommon_stub.so|89e1a3d3302b6809ae4ca1d80f6c2e0cd3c3b752
+vendor/lib/libscveObjectSegmentation.so|b60b43377262ef6cc7882ff5cc49d35e4c516670
+vendor/lib/libscveObjectSegmentation_stub.so|f1a139933c16c2fde367506fe0419c15684a2d3c
+vendor/lib/libscveObjectTracker.so|26318c862d3d56596fe7208ebcc3ae1900f7d55f
+vendor/lib/libscveObjectTracker_stub.so|cafdeed8fa0d51672806038065cf4ce38d442b6b
+vendor/lib64/libscveCommon.so|1603e11f268390739f9d0297ab0b8e84886becab
+vendor/lib64/libscveCommon_stub.so|a818f00395ba18608798890017ac6b2d80f1f878
+vendor/lib64/libscveObjectSegmentation.so|1598ad3797897eb3331a545c74d937c0ae0aeddf
+vendor/lib64/libscveObjectSegmentation_stub.so|383c62c85c0752c0a6614d0ef99c3f8ec730b4b9
+vendor/lib64/libscveObjectTracker.so|0cf7d3128ae0019d882da5c9d8d9186d549177d1
+vendor/lib64/libscveObjectTracker_stub.so|6f45aa215de07dfeacf811c06af750206bb1cf58
 
 # Soter
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
