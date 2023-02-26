@@ -962,9 +962,9 @@ vendor/bin/pm-proxy
 vendor/bin/pm-service
 vendor/lib64/libperipheral_client.so
 
-# Permissions
-product/etc/permissions/telephony_product_privapp-permissions-qti.xml
-system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
+# Permissions - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+product/etc/permissions/telephony_product_privapp-permissions-qti.xml|42f4553b61731e56d253766554d4479519cea3ff
+system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml|4f0056403f56928b8c75a617ba582f17061f89ae
 
 # Postprocessing - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/hw/vendor.display.color@1.0-service|91e9e25ec4d64c4a7d5261899ca2cdb9cf29b695
