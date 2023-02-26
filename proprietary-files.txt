@@ -1360,26 +1360,26 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|938262f1c75299523dc8e5c4e6a7937
 vendor/firmware/aw8697_haptic.bin
 vendor/firmware/aw8697_rtp.bin
 
-# VPP
-vendor/bin/vppservice
-vendor/etc/configstore/vpp.configstore.xml
-vendor/etc/init/vppservice.rc
-vendor/lib/libvppclient.so
-vendor/lib/libvpphvx.so
-vendor/lib/libvppimmotion.so
-vendor/lib/libvpplibrary.so
-vendor/lib/libvpptestutils.so
-vendor/lib/vendor.qti.hardware.vpp@1.1.so
-vendor/lib/vendor.qti.hardware.vpp@1.2.so
-vendor/lib/vendor.qti.hardware.vpp@1.3.so
-vendor/lib64/libvppclient.so
-vendor/lib64/libvpphvx.so
-vendor/lib64/libvppimmotion.so
-vendor/lib64/libvpplibrary.so
-vendor/lib64/libvpptestutils.so
-vendor/lib64/vendor.qti.hardware.vpp@1.1.so
-vendor/lib64/vendor.qti.hardware.vpp@1.2.so
-vendor/lib64/vendor.qti.hardware.vpp@1.3.so
+# VPP - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/bin/vppservice|0f77fd06c6438ded5e5704769db6cb1154d96cbe
+vendor/etc/configstore/vpp.configstore.xml|ed961545186c66fd9523f25866c74f2e11ee63d7
+vendor/etc/init/vppservice.rc|24c089e0e413cbb3fa6daaf0af4215870bdf1b8e
+vendor/lib/libvppclient.so|cb2038656aadc542198b0932f13ebdb9c37e35a5
+vendor/lib/libvpphvx.so|e5b3bfc86080fb20efd5ad3b47417566eab8319d
+vendor/lib/libvppimmotion.so|0735d0dfb704f36463445521fe2c3d93c2cc225d
+vendor/lib/libvpplibrary.so|612c490abe2ade3caa0594756e1ed0cdfa07874b
+vendor/lib/libvpptestutils.so|e42b1664eef8a9bd38a8559bb0d83b749c21a54c
+vendor/lib/vendor.qti.hardware.vpp@1.1.so|e84787e0b689d10a30c4ec3ded8858f0b622323d
+vendor/lib/vendor.qti.hardware.vpp@1.2.so|fc3b81e25f5af4292d032138c46e31b98a7b622a
+vendor/lib/vendor.qti.hardware.vpp@1.3.so|535398187d8a935e7e0d152e8fbb3ef034ba6e6f
+vendor/lib64/libvppclient.so|901213457c854a48714a98d3c76adab9760a03e6
+vendor/lib64/libvpphvx.so|d92a352a9990c77b5724784e8c827637b850d53e
+vendor/lib64/libvppimmotion.so|bcc574b7e87a372436a667f333e42e884c944483
+vendor/lib64/libvpplibrary.so|5a90004fe6852db15dc8d38b8e3c361dc16f2bba
+vendor/lib64/libvpptestutils.so|79ac704942f0419b4174ddd944f6e6942f390fb0
+vendor/lib64/vendor.qti.hardware.vpp@1.1.so|d47fd7845c02aec702ab96569b90eb6bff2cee5c
+vendor/lib64/vendor.qti.hardware.vpp@1.2.so|13714cdc3a7a5aaa67e641034cb92e9fced28960
+vendor/lib64/vendor.qti.hardware.vpp@1.3.so|aea8a28f53263b5001df295d0a6eab0e8405693b
 
 # WiFi
 vendor/bin/cnss-daemon
