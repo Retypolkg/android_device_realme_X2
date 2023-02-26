@@ -781,12 +781,12 @@ odm/vendor/firmware/goodixfp.mdt
 # Health
 vendor/bin/hw/android.hardware.health@2.1-service:vendor/bin/hw/android.hardware.health@2.1-service.RMX1993
 
-# IOP
-vendor/bin/hw/vendor.qti.hardware.iop@2.0-service
-vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc
-vendor/lib64/libqti-iopd-client.so
-vendor/lib64/libqti-iopd.so
-vendor/lib64/vendor.qti.hardware.iop@2.0.so
+# IOP - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|9330f8e0a37f59cf5bc24174094bce61947753e8
+vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc|fd11367b2585702190ef2577ce2ce6fc68f3a2f8
+vendor/lib64/libqti-iopd-client.so|041e79a67f1537a0a77650d1f729d55f50f9b30b
+vendor/lib64/libqti-iopd.so|8436caef7befba4f41fd14423a691b47106cb8c1
+vendor/lib64/vendor.qti.hardware.iop@2.0.so|a520fd07df2a5a6ea78372300978baf6deaf89da
 
 # IPA Firmware
 vendor/etc/init/ipa_fws.rc
