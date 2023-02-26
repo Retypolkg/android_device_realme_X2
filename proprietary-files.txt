@@ -1287,11 +1287,11 @@ vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml|f4884c1776c9f77c
 vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so|f1ac027986bf1cb74738d7f7ea6e8674a646a82a
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|0dc2c4f1f84ff25b293279d2d1b524a575a2ffa4
 
-# Servicetracker
-vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service
-vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc
--vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml
-vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so
+# Servicetracker - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service|033efc4d854ded574fbe0ab2df73fc7aca78f54e
+vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc|7cf06148da895586c20aab7e6bd01b806d8128b6
+-vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml|40b6abd9b4be99dc5722eb60d71ee36764bf4ef3
+vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so|aaf96ed4e3ca1b29005526cc45889e0b9a99c93f
 
 # Snapdragon Computer Vision Engine
 vendor/lib/libscveCommon.so
