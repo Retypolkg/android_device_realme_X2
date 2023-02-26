@@ -830,17 +830,17 @@ vendor/lib64/libnpu.so|4d2599753d7f5ae830a7432fa2152beb1927e14a
 vendor/lib/libmmosal.so|37febc914b2c706a5df0009cc134e9d80690aec0
 vendor/lib64/libmmosal.so|dc6b82fa8d1bd1e7ee0c9dba2ec45b6b032efff0
 
-# Media
-system_ext/lib/libmmosal.so
-system_ext/lib/libmmparser_lite.so
-system_ext/lib64/libmmosal.so
-system_ext/lib64/libmmparser_lite.so
-vendor/bin/hw/vendor.qti.media.c2@1.0-service
-vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
-vendor/etc/seccomp_policy/codec2.vendor.base.policy
-vendor/etc/seccomp_policy/codec2.vendor.ext.policy
-vendor/lib/libqcodec2.so
-vendor/lib64/libqcodec2.so
+# Media - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+system_ext/lib/libmmosal.so|e29bdf82903e2293dc3ee74a2b9d69a7f1df25dc
+system_ext/lib/libmmparser_lite.so|3db1025b8eed0b326110ba69b0fca5d8739e70f3
+system_ext/lib64/libmmosal.so|bf992fb3f6394d0da09279aa496e44e10a149264
+system_ext/lib64/libmmparser_lite.so|8eaf90235d3cd5dc9cdfcd2bb4c85ce4629bf90e
+vendor/bin/hw/vendor.qti.media.c2@1.0-service|83c2effb6f76cb095bae840d95a2026014d92fe9
+vendor/etc/init/vendor.qti.media.c2@1.0-service.rc|11209316ba8aae64b689217bc13b0804f6620678
+vendor/etc/seccomp_policy/codec2.vendor.base.policy|05b0779b5da2ea640984d46a46a796edeaab5fab
+vendor/etc/seccomp_policy/codec2.vendor.ext.policy|6a9a9eb3261048f02805261568097410e1a23b2d
+vendor/lib/libqcodec2.so|01b1f94e7d17c5616635141ff7bc5e3f304b48f0
+vendor/lib64/libqcodec2.so|3caca75a5a2eeb6ef3b73638f6d1f4b98a6dc699
 
 # Mink-Lowi Interface daemon
 vendor/bin/mlid
