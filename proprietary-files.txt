@@ -984,13 +984,13 @@ vendor/lib64/vendor.display.postproc@1.0.so|9c7232cd75fd9df83e4a7b28c5ee796f488a
 # PowerOffAlarm - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 -product/app/PowerOffAlarm/PowerOffAlarm.apk|bc906abd03e4a243201dde626b6580fd8a4f73ce
 
-# QCC
-vendor/bin/hw/vendor.qti.hardware.qccvndhal@1.0-service
-vendor/etc/init/vendor.qti.hardware.qccvndhal@1.0-service.rc
-vendor/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
-vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so
-vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so
+# QCC - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/bin/hw/vendor.qti.hardware.qccvndhal@1.0-service|b60b09fa92e8b400129c021c6b51c0c63dbf1edd
+vendor/etc/init/vendor.qti.hardware.qccvndhal@1.0-service.rc|afeb332a4750a11587658fcc9a75a27f63bbccdd
+vendor/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so|0b1e323871e2828b9e8970e42635e3f7999a17e4
+vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|3ff445db2dd2db1a1068fe70a54a6c04fbdd3123
+vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so|58dd8c5877ba3a274f43f63e6f033213dd84e1c4
+vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so|01b1d11316f5dcd8c1012a55ff01399081c79940
 
 # QDCM
 vendor/bin/qdcmss
