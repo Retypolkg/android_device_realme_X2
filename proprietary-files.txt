@@ -1280,12 +1280,12 @@ vendor/lib64/libssc_default_listener.so
 vendor/lib64/oplus.sensors.ssc.so
 vendor/lib64/sensors.ssc.so
 
-# Sensor-calibrate
-vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
-vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc
-vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml
-vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
+# Sensor-calibrate - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service|31dd9409dc4de025d53392aa9eab88c4df24a789
+vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc|449c88778d880c0d47cc4d651fc60c4c424c1a3f
+vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml|f4884c1776c9f77c24bfce853fe22627ea4b7f79
+vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so|f1ac027986bf1cb74738d7f7ea6e8674a646a82a
+vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|0dc2c4f1f84ff25b293279d2d1b524a575a2ffa4
 
 # Servicetracker
 vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service
