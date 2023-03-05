@@ -839,9 +839,9 @@ vendor/etc/seccomp_policy/codec2.vendor.ext.policy|6a9a9eb3261048f02805261568097
 vendor/lib/libqcodec2.so|01b1f94e7d17c5616635141ff7bc5e3f304b48f0
 vendor/lib64/libqcodec2.so|3caca75a5a2eeb6ef3b73638f6d1f4b98a6dc699
 
-# Mink-Lowi Interface daemon
-vendor/bin/mlid
-vendor/lib64/libminksocket.so
+# Mink-Lowi Interface daemon - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/bin/mlid|8c95b94b28d38dcff915b68b1086c932533334c3
+vendor/lib64/libminksocket.so|8be2d23ce69429813daedfbe5113345cda5da973
 
 # Neural Networks - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti|727be3a0dd6c323b3156a3e2724b6dfff890cb6b
