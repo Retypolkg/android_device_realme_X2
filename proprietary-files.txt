@@ -1333,20 +1333,22 @@ odm/firmware/tp/19771/FW_S3706_SAMSUNG_FAE.img
 odm/firmware/tp/19771/LIMIT_S3706_SAMSUNG.img
 
 # Trusted Execution Environment connector
-vendor/lib/libsecureui.so
-vendor/lib/libsecureui_svcsock.so
-vendor/lib64/libGPQTEEC_vendor.so
-vendor/lib64/libGPTEE_vendor.so
-vendor/lib64/libQTEEConnector_vendor.so
-vendor/lib64/libSecureUILib.so
-vendor/lib64/libStDrvInt.so
 vendor/lib64/libTouchInputVM.so
 vendor/lib64/libTrustedInput.so
 vendor/lib64/libTrustedInputTZ.so
 vendor/lib64/libTrustedUI.so
 vendor/lib64/libTrustedUITZ.so
-vendor/lib64/libsecureui.so
-vendor/lib64/libsecureui_svcsock.so
+
+# Trusted Execution Environment connector - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/lib/libsecureui.so|67f9c5bf371575a76fcbd78a9a7ae6396eee9e5b
+vendor/lib/libsecureui_svcsock.so|f3734fa597659cc387a7bb98ec8f92727fcfc1e1
+vendor/lib64/libGPQTEEC_vendor.so|d70f659c06a38dbae028f41ca6e0dece0ef1d5cd
+vendor/lib64/libGPTEE_vendor.so|92c0215dbd3271e597d536c259df44aac716a402
+vendor/lib64/libQTEEConnector_vendor.so|30e5fd8d4fff50083f44f6d0bd09f4bd287a8366
+vendor/lib64/libSecureUILib.so|e82ac768e72387babc4e940d4082ef41bf102bc3
+vendor/lib64/libStDrvInt.so|c6866bfa63fa8ea4ac7ce8f3ea7daeabba90ae03
+vendor/lib64/libsecureui.so|0ef059bb709cfbb241313b3433a77a7a35f24d26
+vendor/lib64/libsecureui_svcsock.so|d7588944eeb656ca48713dc4cfabc2c299029514
 
 # Trusted User Interface - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|15378114c18fd1b1c8f9671f656396285ad1de48
