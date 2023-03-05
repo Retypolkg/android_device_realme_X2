@@ -993,9 +993,11 @@ vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so|01b1d11316f5dcd8c1012a55ff0139
 vendor/bin/qdcmss|a1bb68e4508feac29c821eb791cae8b1db235e28
 vendor/etc/init/qdcmss.rc|53d78d686678c4f923a9ec4ace7d4d3575b13788
 
-# Qualcomm MSM Interface
-system_ext/etc/permissions/qti_permissions.xml
-system_ext/etc/sysconfig/qti_whitelist_system_ext.xml
+# Qualcomm MSM Interface (system) - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
+system_ext/etc/sysconfig/qti_whitelist_system_ext.xml|e34b3affaef4e4ee135cbeec8d7c3e8c6cfd65ce
+
+# Qualcomm MSM Interface (vendor)
 vendor/bin/irsc_util
 vendor/bin/pd-mapper
 vendor/bin/qrtr-ns
