@@ -168,7 +168,6 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 ro.vendor.qti.va_aosp.support=1
 
 # Chipset
-ro.soc.manufacturer=Qualcomm
 ro.soc.model=SM7150
 
 # Graphics
