@@ -190,6 +190,12 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 
 # Bluetooth (Audio)
+odm/lib/hw/vendor.oplus.hardware.bluetooth_audio@1.0-impl.so
+odm/lib/oplus_btaudio_offload_if.so
+odm/lib/vendor.oplus.hardware.bluetooth_audio@1.0.so
+odm/lib64/hw/vendor.oplus.hardware.bluetooth_audio@1.0-impl.so
+odm/lib64/oplus_btaudio_offload_if.so
+odm/lib64/vendor.oplus.hardware.bluetooth_audio@1.0.so
 vendor/lib/hw/audio.bluetooth_qti.default.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 vendor/lib/btaudio_offload_if.so
