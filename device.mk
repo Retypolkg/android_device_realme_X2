@@ -66,7 +66,6 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.1-impl \
     audio.r_submix.default \
     audio.usb.default \
-    liba2dpoffload \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
