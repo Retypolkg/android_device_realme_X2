@@ -23,7 +23,6 @@ vendor/bin/adsprpcd|12e09d8e87b260a8721c7938890186a0877a9e85
 vendor/etc/init/vendor.qti.adsprpc-sscrpc-service.rc|77f5aaf6d773ee545e39bc5fdc99c65434c05379
 vendor/lib/libadsp_default_listener.so|49d7644708419ea077ffd9d00901ebf6cdd4377c
 vendor/lib/libadsprpc.so|2c45baa7c6a8743f7e433a25fc40aff0e6827c65
-vendor/lib/libfastcrc.so|4048d4789828d7e356a2ace7d9a83db92e458173
 vendor/lib/libfastcvdsp_stub.so|7f27cee24281bc9bf4f08c6100cc66bd650d8efb
 vendor/lib/libfastcvopt.so|2d95075abd87d86a1b2003294504fabbfe3d294c
 vendor/lib/libfastrpc_utf_stub.so|96641c3b58f7130770f3bfc1663d80cae9385b65
@@ -777,8 +776,6 @@ vendor/lib/liblistensoundmodel2.so|d96f8a4466c34a737fdd24a33c082ff8150f42ff
 vendor/lib/libmulawdec.so|89ebb1d9e77911f1abe37405016839d8436a9825
 vendor/lib/libsmemlog.so|b3c6132388bee5db13a61f1f287bd78df131b63f
 vendor/lib/libsmwrapper.so|6c54b63ef92319b660854065623f30e8b94d3444
-vendor/lib/libstreamparser.so|0b2a8233f502d24c87e21e6a57d57a0a51f3445e
-vendor/lib/libvideoutils.so|bef54e0b843387a01fcf1f9f27f2ef0ff9981de7
 
 # Machine learning - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/npu_launcher|ab20fb0d6c49f2c61e4d094ab06634d2fadd5ffc
@@ -789,8 +786,6 @@ vendor/lib/libmmosal.so|37febc914b2c706a5df0009cc134e9d80690aec0
 vendor/lib64/libmmosal.so|dc6b82fa8d1bd1e7ee0c9dba2ec45b6b032efff0
 
 # Media - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
-vendor/bin/hw/vendor.qti.media.c2@1.0-service|83c2effb6f76cb095bae840d95a2026014d92fe9
-vendor/etc/init/vendor.qti.media.c2@1.0-service.rc|11209316ba8aae64b689217bc13b0804f6620678
 vendor/etc/seccomp_policy/codec2.vendor.base.policy|05b0779b5da2ea640984d46a46a796edeaab5fab
 vendor/etc/seccomp_policy/codec2.vendor.ext.policy|6a9a9eb3261048f02805261568097410e1a23b2d
 vendor/lib/libqcodec2.so|01b1f94e7d17c5616635141ff7bc5e3f304b48f0
@@ -829,7 +824,6 @@ odm/lib/libsn100u_fw.so
 vendor/lib/libAlacSwDec.so|cb41b0945e57b349e6aa476cdac4315ee13a2def
 vendor/lib/libApeSwDec.so|ce425ef9372ed6635e313422b3578f77b90ff526
 vendor/lib/libFlacSwDec.so|6b17d0965c9f8bddab3ffd59e7bb16e92bb68d85
-vendor/lib/libMpeg4SwEncoder.so|3b2d036fefbaa71ea5aba4eda7ab6885bc5f8040
 vendor/lib/libOmxAacDec.so|252aef7117fd026653b8a26d95ee41437fb64e3c
 vendor/lib/libOmxAlacDec.so|c61bfc85d12207c4cc88a676a608cf8aa93e4b01
 vendor/lib/libOmxAlacDecSw.so|150f1fee193918792a88797766ddf12d1a388efd
@@ -841,18 +835,13 @@ vendor/lib/libOmxDsdDec.so|f74936badeb8303b2bb17475b9cd157b1c81131c
 vendor/lib/libOmxEvrcDec.so|ad5886dfe926939436176fc536f3063a02030f38
 vendor/lib/libOmxG711Dec.so|806248ec3957ef1bf37816bb388a4f7626eb62c1
 vendor/lib/libOmxQcelp13Dec.so|a2c6582043ef958235f89f9f9a2aab60547a88b1
-vendor/lib/libOmxSwVdec.so|c343595462ab7bc0d3f670449ef2973251b3d876
-vendor/lib/libOmxSwVencMpeg4.so|18c50079e9cfe68e125233249c4014d6aea173d6
-vendor/lib/libOmxVideoDSMode.so|be98151cc1b1b48cbd34a360cc5becc78c21cf7e
 vendor/lib/libOmxVpp.so|e4728f604f69a9fc4c07d12cf666839c77ec6555
 vendor/lib/libOmxWmaDec.so|9e30df0b706ef4420b0ac6052f98bec8e41ea412
 vendor/lib/libdsd2pcm.so|c5ab1afd7a5a23bf83d80b5ac74247c3dd2085af
 vendor/lib/libstagefright_soft_qtiflacdec.so|c0374df17a0d37d75d942e819211b11a0eeb6a8f
-vendor/lib/libswvdec.so|470a275b120633d7a0d756a7d30a817b25d2e54e
 vendor/lib64/libAlacSwDec.so|e520eafd5dd9ee29456b60f4668ea94394a61a63
 vendor/lib64/libApeSwDec.so|76d3cc02ca1c3cdc3c71e57dc6e53027d2bf3d37
 vendor/lib64/libFlacSwDec.so|c16096dee817ba98a5a7b79ae358ae0db27fe237
-vendor/lib64/libMpeg4SwEncoder.so|c1907b19f58d2ec6e46be05aaa9887725977375f
 vendor/lib64/libOmxAacDec.so|4cfa0cf21fc4194a5b95afb5a3bdb9745ff89311
 vendor/lib64/libOmxAlacDec.so|4310006162363b8c253818c1dbcd4426621abae7
 vendor/lib64/libOmxAlacDecSw.so|3ecf891368d0ad84903b792303ef841dc24f91c1
@@ -863,12 +852,9 @@ vendor/lib64/libOmxApeDecSw.so|6ec15cb9a251a35e7f7d427dcf0b0e945825518f
 vendor/lib64/libOmxEvrcDec.so|d4703cef37161fbf85cc9f9911cc0c22472c5268
 vendor/lib64/libOmxG711Dec.so|9fee00467b989819d39a78dc9b714709eedd11bd
 vendor/lib64/libOmxQcelp13Dec.so|5401fcf18401e38bbee22267e367e305578f6944
-vendor/lib64/libOmxSwVdec.so|55a912fab21411cf006763d61cb11285d1f4eb59
-vendor/lib64/libOmxSwVencMpeg4.so|441291ad76c53f2d0ec0a29a1e80e0622b350793
 vendor/lib64/libOmxVpp.so|37bacdd66a5f3edfe9885c747b5ba7eae8141acc
 vendor/lib64/libOmxWmaDec.so|87eb288166853304ab252991c3f9c56ff558f863
 vendor/lib64/libstagefright_soft_qtiflacdec.so|9ca15e1b950505ce7e06f106f1361ef0e763a83e
-vendor/lib64/libswvdec.so|a823163fe524591df0a0fb242df84fdbf58f783a
 
 # Oplus HIDL hals
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service
@@ -1293,17 +1279,11 @@ vendor/lib/libvpphvx.so|e5b3bfc86080fb20efd5ad3b47417566eab8319d
 vendor/lib/libvppimmotion.so|0735d0dfb704f36463445521fe2c3d93c2cc225d
 vendor/lib/libvpplibrary.so|612c490abe2ade3caa0594756e1ed0cdfa07874b
 vendor/lib/libvpptestutils.so|e42b1664eef8a9bd38a8559bb0d83b749c21a54c
-vendor/lib/vendor.qti.hardware.vpp@1.1.so|e84787e0b689d10a30c4ec3ded8858f0b622323d
-vendor/lib/vendor.qti.hardware.vpp@1.2.so|fc3b81e25f5af4292d032138c46e31b98a7b622a
-vendor/lib/vendor.qti.hardware.vpp@1.3.so|535398187d8a935e7e0d152e8fbb3ef034ba6e6f
 vendor/lib64/libvppclient.so|901213457c854a48714a98d3c76adab9760a03e6
 vendor/lib64/libvpphvx.so|d92a352a9990c77b5724784e8c827637b850d53e
 vendor/lib64/libvppimmotion.so|bcc574b7e87a372436a667f333e42e884c944483
 vendor/lib64/libvpplibrary.so|5a90004fe6852db15dc8d38b8e3c361dc16f2bba
 vendor/lib64/libvpptestutils.so|79ac704942f0419b4174ddd944f6e6942f390fb0
-vendor/lib64/vendor.qti.hardware.vpp@1.1.so|d47fd7845c02aec702ab96569b90eb6bff2cee5c
-vendor/lib64/vendor.qti.hardware.vpp@1.2.so|13714cdc3a7a5aaa67e641034cb92e9fced28960
-vendor/lib64/vendor.qti.hardware.vpp@1.3.so|aea8a28f53263b5001df295d0a6eab0e8405693b
 
 # WiFi
 vendor/bin/cnss-daemon

@@ -50,7 +50,6 @@ persist.demo.hdmirotationlock=false
 persist.hwc.enable_vds=1
 
 # Media
-media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 audio.offload.video=true
 media.stagefright.enable-player=true
 media.stagefright.enable-http=true
@@ -58,11 +57,9 @@ media.stagefright.enable-aac=true
 media.stagefright.enable-qcp=true
 media.stagefright.enable-fma2dp=true
 media.stagefright.enable-scan=true
-media.stagefright.thumbnail.prefer_hw_codecs=true
 mmp.enable.3g2=true
 media.aac_51_output_enabled=true
 persist.mm.enable.prefetch=true
-ro.media.recorder-max-base-layer-fps=60
 
 # Memory optimizations
 ro.vendor.qti.sys.fw.bservice_enable=true
