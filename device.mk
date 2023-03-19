@@ -273,6 +273,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     bt \
     media \
     perf \
+    vibrator \
     wlan
 
 # Power
@@ -322,9 +323,6 @@ PRODUCT_SOONG_NAMESPACES += \
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
-
-# Vibrator
-$(call inherit-product, vendor/qcom/opensource/vibrator/vibrator-vendor-product.mk)
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
