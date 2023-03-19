@@ -273,6 +273,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     bt \
     media \
     perf \
+    qseecomd \
     vibrator \
     wfd \
     wlan

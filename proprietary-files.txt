@@ -207,7 +207,6 @@ vendor/lib64/btaudio_offload_if.so
 vendor/lib64/libbluetooth_audio_session_qti.so
 
 # Camera
-vendor/lib64/libbase64.so
 vendor/lib64/libcvface_api.so
 vendor/lib64/libcvpcpuRev_skel.so
 vendor/lib64/libhbtpclient.so
@@ -229,7 +228,6 @@ vendor/lib64/libsmemlog.so
 vendor/lib64/libsoc_helper.so
 vendor/lib64/libsoc_helper_jni.so
 vendor/lib64/libsubsystem_control.so
-vendor/lib64/libtzdrmgenprov.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so
 
 # Camera-arcsoft
@@ -600,27 +598,10 @@ vendor/lib64/libdpmqmihal.so|41eb89e66ba065c43a5eb79cd3c72cef0ee167aa
 vendor/lib64/libspl.so|0fa8c0711f72fc8a914dce044cf8dddd79ee62e1
 
 # DRM - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
-vendor/bin/qseecomd|cec1fd6b50ece998b82e3e9d853d2ee5416ef614
-vendor/etc/init/qseecomd.rc|0ebfb7c5d1d2459be4fdac951a182dc486f3bda7
 vendor/etc/gpfspath_oem_config.xml|7aeade35b0bbe27530f6aca8c1ed5192a7acf59d
-vendor/lib/libcppf.so|c18f874bc6135cd83bcc1ffb892e2d4815311aac
-vendor/lib64/libGPreqcancel.so|b9efbc8623981e1249ad0a0f8964b2b655d2b334
-vendor/lib64/libGPreqcancel_svc.so|507859447820246b21175096753a7e3fb13727ab
-vendor/lib64/libQSEEComAPI.so|34b9e5b28e7f141c40fdb392aba9af60aa98d5b5
-vendor/lib64/libdrmfs.so|a21f9505fac81e4f0a307d7f7a51efab61d9d0cb
-vendor/lib64/libdrmtime.so|6b51dbccd8d1bfa0c5aa72948f3a6cd079eee426
-vendor/lib64/libops.so|4d1c1e9a8dce82b6d20dd1cdc05121e731e7ab5d
-vendor/lib64/libqisl.so|c79719eebc094c2af9561e8df2c158638b111b70
-vendor/lib64/librpmb.so|9ddc3b22dbde8b60aaf531601ac452e945d95a14
-vendor/lib64/libssd.so|0a461a98eb314fe6e79bfe08457a88e48c52550a
 
 # DRM (OEM Crypto API)
 odm/lib64/liboemcrypto.so
-
-# DRM (OEM Crypto API) - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
-vendor/lib64/libcpion.so|04577591c6e772730453da2c9ba4b94a5edd9b1a
-vendor/lib64/libminkdescriptor.so|3fb52e7d3c9c213df62881a7068baab82cbbd78e
-vendor/lib64/libtrustedapploader.so|e9ebd0130381cf60219d4c511a8e6908684cb7ab
 
 # DRM (Widevine)
 odm/bin/hw/android.hardware.drm@1.3-service.widevine
@@ -793,7 +774,6 @@ vendor/lib64/libqcodec2.so|3caca75a5a2eeb6ef3b73638f6d1f4b98a6dc699
 
 # Mink-Lowi Interface daemon - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/mlid|8c95b94b28d38dcff915b68b1086c932533334c3
-vendor/lib64/libminksocket.so|8be2d23ce69429813daedfbe5113345cda5da973
 
 # Neural Networks - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti|727be3a0dd6c323b3156a3e2724b6dfff890cb6b
@@ -917,7 +897,6 @@ vendor/bin/irsc_util
 vendor/bin/pd-mapper
 vendor/bin/qrtr-ns
 vendor/etc/seccomp_policy/qti-systemd.policy
-vendor/lib/libdiag.so
 vendor/lib/libdsutils.so
 vendor/lib/libidl.so
 vendor/lib/libmdmdetect.so
@@ -937,7 +916,6 @@ vendor/lib/libqmi_encdec.so
 vendor/lib/libqmi_legacy.so
 vendor/lib/libqmiservices.so
 vendor/lib/libqsocket.so
-vendor/lib64/libdiag.so
 vendor/lib64/libdsutils.so
 vendor/lib64/libidl.so
 vendor/lib64/libmdmdetect.so
@@ -1236,7 +1214,6 @@ vendor/lib64/libthermalclient.so
 -vendor/app/TimeService/TimeService.apk|1a5f39aa2969feee50ff81ec870b5e2669ae515e
 vendor/bin/time_daemon|17377813bbc330c23d2fee77be21fe24d8aa131e
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
-vendor/lib64/libtime_genoff.so|7b8bf7bf1eaa4df8f6613f4ece711a0797cd2e46
 
 # Touchscreen Firmware
 odm/firmware/tp/19771/FW_S3706_SAMSUNG.img
@@ -1253,9 +1230,6 @@ vendor/lib64/libTrustedUITZ.so
 # Trusted Execution Environment connector - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/lib/libsecureui.so|67f9c5bf371575a76fcbd78a9a7ae6396eee9e5b
 vendor/lib/libsecureui_svcsock.so|f3734fa597659cc387a7bb98ec8f92727fcfc1e1
-vendor/lib64/libGPQTEEC_vendor.so|d70f659c06a38dbae028f41ca6e0dece0ef1d5cd
-vendor/lib64/libGPTEE_vendor.so|92c0215dbd3271e597d536c259df44aac716a402
-vendor/lib64/libQTEEConnector_vendor.so|30e5fd8d4fff50083f44f6d0bd09f4bd287a8366
 vendor/lib64/libSecureUILib.so|e82ac768e72387babc4e940d4082ef41bf102bc3
 vendor/lib64/libStDrvInt.so|c6866bfa63fa8ea4ac7ce8f3ea7daeabba90ae03
 vendor/lib64/libsecureui.so|0ef059bb709cfbb241313b3433a77a7a35f24d26
