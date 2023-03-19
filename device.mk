@@ -274,6 +274,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     media \
     perf \
     vibrator \
+    wfd \
     wlan
 
 # Power
@@ -336,11 +337,7 @@ PRODUCT_COPY_FILES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
-    libnl \
     libwfdaac_vendor
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
 
 # Inherit from vendor if exists
 $(call inherit-product-if-exists, vendor/realme/X2/X2-vendor.mk)
