@@ -745,7 +745,6 @@ vendor/lib64/libmmosal.so|dc6b82fa8d1bd1e7ee0c9dba2ec45b6b032efff0
 
 # Media - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/etc/seccomp_policy/codec2.vendor.base.policy|05b0779b5da2ea640984d46a46a796edeaab5fab
-vendor/etc/seccomp_policy/codec2.vendor.ext.policy|6a9a9eb3261048f02805261568097410e1a23b2d
 vendor/lib/libqcodec2.so|01b1f94e7d17c5616635141ff7bc5e3f304b48f0
 vendor/lib64/libqcodec2.so|3caca75a5a2eeb6ef3b73638f6d1f4b98a6dc699
 
