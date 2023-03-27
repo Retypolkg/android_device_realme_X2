@@ -390,7 +390,7 @@ $(call inherit-product, vendor/qcom/opensource/vibrator/vibrator-vendor-product.
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
-    android.hardware.wifi@1.0-service \
+    android.hardware.wifi-service \
     hostapd \
     libwifi-hal-ctrl \
     libwifi-hal-qcom \
