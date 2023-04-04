@@ -665,10 +665,6 @@ vendor/lib64/libsdmcore.so|f594706ac4fd7a6693729c759f87b763f1684058
 vendor/lib64/libsdmextension.so|76ef1430f700480509b5f991e031447fea9ddb01
 vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
 
-# Graphics (hwcomposer)
-vendor/lib/hw/hwcomposer.sm6150.so
-vendor/lib64/hw/hwcomposer.sm6150.so
-
 # Graphics firmware
 vendor/firmware/a612_rgmu.bin
 vendor/firmware/a612_zap.b00
