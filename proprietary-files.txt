@@ -693,7 +693,6 @@ vendor/lib64/vendor.qti.gnss@4.0-service.so|d4ad241375b02946f2822888f7cc95704210
 vendor/lib64/vendor.qti.gnss@4.0.so|5ef1845cf0a310a52bfbdbc719685270ea4e39b3
 
 # Graphics (Adreno) - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
--vendor/app/com.qualcomm.qti.gpudrivers.sm6150.api30/com.qualcomm.qti.gpudrivers.sm6150.api30.apk|c3601f567e672f5493fd8015d858d78399b891f2
 vendor/lib/egl/eglSubDriverAndroid.so|07f8ae50ed02fa107219bf49f02c93a8720366bf
 vendor/lib/egl/libEGL_adreno.so|e6382c9115d5d471c32c010fc50dcbbf6a523d1f
 vendor/lib/egl/libGLESv1_CM_adreno.so|715f3463528f1e74ffa02627ee5916a09e0748f5
