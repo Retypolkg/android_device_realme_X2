@@ -190,13 +190,13 @@ odm/lib/vendor.oplus.hardware.bluetooth_audio@1.0.so
 odm/lib64/hw/vendor.oplus.hardware.bluetooth_audio@1.0-impl.so
 odm/lib64/oplus_btaudio_offload_if.so
 odm/lib64/vendor.oplus.hardware.bluetooth_audio@1.0.so
+vendor/lib/btaudio_offload_if.so
 vendor/lib/hw/audio.bluetooth_qti.default.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
-vendor/lib/btaudio_offload_if.so
 vendor/lib/libbluetooth_audio_session_qti.so
+vendor/lib64/btaudio_offload_if.so
 vendor/lib64/hw/audio.bluetooth_qti.default.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
-vendor/lib64/btaudio_offload_if.so
 vendor/lib64/libbluetooth_audio_session_qti.so
 
 # Camera
@@ -324,6 +324,9 @@ vendor/lib64/camera.device@3.5-impl.so
 vendor/lib64/camera.device@3.6-external-impl.so
 
 # Camera hardware
+odm/etc/camera/CameraHWConfiguration.config
+odm/etc/camera/FusionBin.dat
+odm/etc/camera/anc_cl_kernel.cache
 odm/etc/camera/asd/class.dlc
 odm/etc/camera/asd/detect.dlc
 odm/etc/camera/ashdr/ncf_pack.ncf
@@ -336,19 +339,16 @@ odm/etc/camera/config/ov02a1b
 odm/etc/camera/config/s5kgd1sp
 odm/etc/camera/config/s5kgw1
 odm/etc/camera/config/video_beauty_default_config
+odm/etc/camera/fb_default
+odm/etc/camera/gasryuv_1.2_wp.model
+odm/etc/camera/license_release_fdc.lic
 odm/etc/camera/megvii/merged_model
 odm/etc/camera/megvii/merged_model_post
 odm/etc/camera/model/DocDetectV15.xbin
 odm/etc/camera/model/license.lic
-odm/etc/camera/singleblur/license_release.license
-odm/etc/camera/CameraHWConfiguration.config
-odm/etc/camera/FusionBin.dat
-odm/etc/camera/anc_cl_kernel.cache
-odm/etc/camera/fb_default
-odm/etc/camera/gasryuv_1.2_wp.model
-odm/etc/camera/license_release_fdc.lic
 odm/etc/camera/model_fdc.data
 odm/etc/camera/settings_fdc.txt
+odm/etc/camera/singleblur/license_release.license
 odm/etc/camera/stereoParams.bin
 odm/lib64/libCOppLceTonemapAPI.so
 odm/lib64/libDxHdcp.so
@@ -577,8 +577,8 @@ odm/lib64/liboemcrypto.so
 odm/bin/hw/android.hardware.drm@1.3-service.widevine
 odm/etc/init/android.hardware.drm@1.3-service.widevine.rc
 -odm/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
-odm/lib64/mediadrm/libwvdrmengine.so
 odm/lib64/libwvhidl.so
+odm/lib64/mediadrm/libwvdrmengine.so
 
 # DSP - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/dspservice|a7344fc3d27a49df30858ebc3f73ee5818e752d4
@@ -591,8 +591,8 @@ odm/firmware/fastchg/19771/oplus_vooc_fw.bin
 vendor/firmware/fastchg/oplus_vooc_fw.bin
 
 # Fingerprint
-odm/lib64/hw/fingerprint.goodix_G3.default.so
 odm/lib64/anc.hal.so
+odm/lib64/hw/fingerprint.goodix_G3.default.so
 odm/lib64/libgf_hal_G3.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
@@ -600,8 +600,8 @@ vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 system_ext/lib64/fm_helium.so|0d810fb4f094daf6f399a3d13f379a13114b21a6
 system_ext/lib64/libfm-hci.so|66ccf3fc817cf744871ea4178702359bb8babbd5
 -system_ext/lib64/vendor.qti.hardware.fm@1.0.so|0bfc9d9097698b7cc8cb74721cb971a80f862720
-vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|5c938c9eb6060bfeac1752b4e6d07101bb2430df
 vendor/lib64/ftm_fm_lib.so|48ef909ec57db51104792db4efecaab888cdc8ea
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|5c938c9eb6060bfeac1752b4e6d07101bb2430df
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|49e99338190dbbe0a5db2be70fa68f24e3fd18fa
 
 # Gatekeeper - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
@@ -750,9 +750,9 @@ vendor/lib64/unnhal-acc-hvx.so|3f61cfe064965ea1a5fc288b133da1802d36b608
 
 # NFC
 odm/etc/init/init.SN100x.nfc.rc
+odm/etc/libnfc-nxp-pnscr.conf
 odm/etc/libnfc-nxp-pnscr.conf:odm/etc/libnfc-nxp.conf
 odm/etc/libnfc-nxp-pnscr.conf:vendor/etc/libnfc-nxp.conf
-odm/etc/libnfc-nxp-pnscr.conf
 odm/lib/libpnscr2.so
 odm/lib64/libpnscr2.so
 
@@ -894,9 +894,9 @@ odm/lib64/vendor.oplus.hardware.radio@1.0.so
 system_ext/etc/permissions/telephonyservice.xml|b7831598d3c19c6ce4ef431d1cc44d94c3c35a8d
 
 # Radio (vendor)
-vendor/bin/hw/qcrild
 vendor/bin/ATFWD-daemon
 vendor/bin/adpl
+vendor/bin/hw/qcrild
 vendor/bin/netmgrd
 vendor/bin/port-bridge
 vendor/bin/qti
@@ -958,6 +958,7 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
+vendor/radio/qcril_database/qcril.db
 vendor/radio/qcril_database/upgrade/0_initial.sql
 vendor/radio/qcril_database/upgrade/1_version_intro.sql
 vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql
@@ -966,7 +967,6 @@ vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
-vendor/radio/qcril_database/qcril.db
 
 # Radio - IMS (odm)
 odm/lib64/vendor.oplus.hardware.ims@1.0.so
